@@ -72,7 +72,6 @@ jobs:
           # Note: tags has to be all lower-case
           tags: |
             starbiloz/reactapp-ci:${{ github.sha }} 
-            ghcr.io/starbiloz/reactapp-ci:${{ github.sha }}
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
